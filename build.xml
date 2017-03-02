@@ -36,6 +36,12 @@
         <pathelement location="lib/util/log4j.jar"/>
         <pathelement location="lib/util/trove.jar"/>
         <pathelement location="lib/util/commons-codec-1.9.jar"/>
+	<pathelement location="lib/db/mongo-java-driver-3.2.2.jar"/>
+        <pathelement location="lib/search/solr-solrj-6.4.1.jar"/>
+        <pathelement location="lib/search/httpclient-4.5.3.jar"/>
+        <pathelement location="lib/search/httpcore-4.4.6.jar"/>
+        <pathelement location="lib/search/httpmime-4.5.3.jar"/>
+        <pathelement location="lib/search/noggit-0.5.jar"/>
     </path>
     <path id="run.Run OpenEphyra.classpath">
         <pathelement location="${JRE_LIB}"/>
